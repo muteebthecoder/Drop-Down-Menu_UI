@@ -1,0 +1,85 @@
+/*Code by youtube channel Muteeb Q*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main {
+    background-image: url(bgpic.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    width: 100%;
+    height: 200px;
+    background-color: #c0c0c0;
+}
+
+.menu ul {
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+}
+
+.menu ul li {
+    width: 150px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.menu ul li a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu ul li:hover {
+    background-color: #ffa07a;
+    transition: background .4s;
+}
+
+.parant {
+    position: relative;
+}
+.submenu{
+    margin-top: 50px;
+    display: none;
+}
+.parant:hover .submenu{
+    display: block;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 45px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
